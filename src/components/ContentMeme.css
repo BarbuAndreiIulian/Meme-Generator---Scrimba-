@@ -1,0 +1,47 @@
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  margin-bottom: 17px;
+  padding: 2rem;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+  letter-spacing: -0.07em;
+
+  color: #ffffff;
+}
+
+.img-container {
+}
+
+.input1 {
+  border: 1px solid #d5d4d8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 1.5rem;
+}
+
+.input2 {
+  border: 1px solid #d5d4d8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 1.5rem;
+}
+
+.meme-img {
+  box-sizing: border-box;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  width: 60rem;
+  height: 100%;
+  max-width: 100%;
+}
